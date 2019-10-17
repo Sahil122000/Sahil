@@ -46,18 +46,18 @@ and open the template in the editor.
                 var num = Math.floor((Math.random()*2)+1);
                 
                 if(num===1){
-                    document.getElementById('imga').src='heads.jpg';
+                    document.getElementById('imga').src='sa3.jpg';
                     
                     document.getElementById('head').innerHTML=parseInt(document.getElementById('head').innerHTML)+1;
                 }
                 else{
-                    document.getElementById('imga').src='tails.jpg';
+                    document.getElementById('imga').src='sa4.jpg';
                     document.getElementById('tail').innerHTML=parseInt(document.getElementById('tail').innerHTML)+1;
                 }
                 
             });
             
         </script>
-        <center><p class='cpy' style="display:block;margin:auto;">&copy;Sushen Vallabh V - URK17CS231</p></center>
+        <center><p class='cpy' style="display:block;margin:auto;">&copy;Sahil V - URK17CS237</p></center>
     </body>
 </html>
